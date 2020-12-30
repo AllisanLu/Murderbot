@@ -1,0 +1,14 @@
+{
+  "name": "murderbot",
+  "version": "1.0.0",
+  "description": "A discord bot that is the DM of a murder game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "allison",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
