@@ -19,4 +19,4 @@ if (message.content === '!blub') {
 }
 
 // login to Discord with your app's token
-client.login('Nzk1NjkzMjc5NjA5MzU2MzE5.X_NFHQ.tl0hnEPF5Umy8adqRafp8sexU_4');
+client.login('token here :3');
