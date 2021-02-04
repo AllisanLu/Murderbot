@@ -11,12 +11,16 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-	console.log(message.content);
+//	console.log(message.content);
+	if (message.content === '!blub') {
+		message.channel.send('blub');
+	}
+	else if (message.content == '!killLekan') {
+		message.channel.send("Fk u", {files: ["kill.png"]});
+	}
 });
 
-if (message.content === '!blub') {
-	message.channel.send('blub');
-}
+
 
 // login to Discord with your app's token
-client.login('token here :3');
+client.login('token uwu');
