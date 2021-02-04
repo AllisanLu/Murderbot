@@ -1,2 +1,2 @@
 # Murderbot
- discord DM bot >:D
+ https://discord.gg/7X3QB2eW
