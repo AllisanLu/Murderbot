@@ -16,11 +16,11 @@ client.on('message', message => {
 		message.channel.send('blub');
 	}
 	else if (message.content == '!killLekan') {
-		message.channel.send("Fk u", {files: ["kill.png"]});
+		message.channel.send("Fk u", {files: ["KillLekan.gif"]});
 	}
 });
 
 
 
 // login to Discord with your app's token
-client.login('token uwu');
+client.login('token here');
