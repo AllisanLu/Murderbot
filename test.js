@@ -11,7 +11,6 @@ client.once('ready', () => {
 });
 
 client.on('message', message => {
-//	console.log(message.content);
 	if (message.content === '!blub') {
 		message.channel.send('blub');
 	}
